@@ -1,16 +1,16 @@
 {
-    "name": "faustbrian/laravel-social-share",
+    "name": "sandeepgill/laravel-social-share",
     "description": "",
-    "keywords": ["laravel", "framework", "Laravel-social-share", "Laravel Social Share", "Brian Faust", "faustbrian"],
+    "keywords": ["laravel", "framework", "Laravel-social-share", "Laravel Social Share", "Sandeep Gill", "sandeepgill"],
     "license": "MIT",
     "authors": [{
-        "name": "Brian Faust",
-        "email": "hello@brianfaust.de",
-        "homepage": "https://brianfaust.de"
+        "name": "Sandeep Gill",
+        "email": "sandeep.gill@justbaoutmachines.com.au",
+        "homepage": "http://sandeepgill.com.au"
     }],
     "require": {
-        "php": "^7.1",
-        "faustbrian/laravel-service-provider": "^1.0"
+        "php": "^5.6",
+        "sandeepgill/laravel-service-provider": "^1.0"
     },
     "require-dev": {
         "graham-campbell/testbench": "^3.2",
@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "BrianFaust\\SocialShare\\": "src/"
+            "SandeepGill\\SocialShare\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "BrianFaust\\Tests\\SocialShare\\": "tests"
+            "SandeepGill\\Tests\\SocialShare\\": "tests"
         }
     },
     "config": {

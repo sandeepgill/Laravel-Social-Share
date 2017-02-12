@@ -5,19 +5,19 @@
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
 
 ``` bash
-$ composer require faustbrian/laravel-social-share
+$ composer require sandeepgill/laravel-social-share
 ```
 
 And then include the service provider within `app/config/app.php`.
 
 ``` php
-BrianFaust\SocialShare\SocialShareServiceProvider::class
+SandeepGill\SocialShare\SocialShareServiceProvider::class
 ```
 
 And, for convenience, add a facade alias to this same file at the bottom:
 
 ``` php
-'Share' => BrianFaust\SocialShare\Facades\SocialShare
+'Share' => SandeepGill\SocialShare\Facades\SocialShare
 ```
 
 ## Usage

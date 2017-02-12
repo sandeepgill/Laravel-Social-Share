@@ -20,27 +20,25 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\SocialShare;
+namespace SandeepGill\SocialShare;
 
-use BrianFaust\ServiceProvider\AbstractServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
-class SocialShareServiceProvider extends AbstractServiceProvider
+class SocialShareServiceProvider extends ServiceProvider
 {
-    public function register(): void
+    public function register()
     {
-        parent::register();
-
         $this->app->singleton('social-share', function () {
             return new Share();
         });
     }
 
-    public function provides(): array
+    public function provides()
     {
         return array_merge(parent::provides(), ['social-share']);
     }
 
-    public function getPackageName(): string
+    public function getPackageName()
     {
         return 'social-share';
     }

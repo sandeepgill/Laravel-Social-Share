@@ -20,13 +20,13 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\SocialShare\Facades;
+namespace SandeepGill\SocialShare\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 class SocialShare extends Facade
 {
-    protected static function getFacadeAccessor(): string
+    protected static function getFacadeAccessor()
     {
         return 'social-share';
     }

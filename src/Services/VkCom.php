@@ -20,7 +20,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace BrianFaust\SocialShare\Services;
+namespace SandeepGill\SocialShare\Services;
 
 class VkCom extends Service
 {
