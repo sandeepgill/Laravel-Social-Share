@@ -3,16 +3,9 @@
 /*
  * This file is part of Laravel Social Share.
  *
- * (c) Brian Faust <hello@brianfaust.de>
+ * @author Sandeep Gill <sandeep.gill@justaboutmachines.com.au>
  *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-/*
- * This file is part of Laravel Social Share.
- *
- * (c) Brian Faust <hello@brianfaust.de>
+ * Based on the package developed by: Brian Faust <hello@brianfaust.de>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.

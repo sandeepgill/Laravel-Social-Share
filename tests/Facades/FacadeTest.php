@@ -3,27 +3,18 @@
 /*
  * This file is part of Laravel Social Share.
  *
- * (c) Brian Faust <hello@brianfaust.de>
+ * @author Sandeep Gill <sandeep.gill@justaboutmachines.com.au>
+ *
+ * Based on the package developed by: Brian Faust <hello@brianfaust.de>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-declare(strict_types=1);
+namespace SandeepGill\Tests\SocialShare\Facades;
 
-/*
- * This file is part of Laravel Social Share.
- *
- * (c) Brian Faust <hello@brianfaust.de>
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
-namespace BrianFaust\Tests\SocialShare\Facades;
-
-use BrianFaust\SocialShare\Share;
-use BrianFaust\Tests\SocialShare\AbstractTestCase;
+use SandeepGill\SocialShare\Share;
+use SandeepGill\Tests\SocialShare\AbstractTestCase;
 use GrahamCampbell\TestBenchCore\FacadeTrait;
 
 class FacadeTest extends AbstractTestCase
@@ -37,7 +28,7 @@ class FacadeTest extends AbstractTestCase
 
     protected function getFacadeClass()
     {
-        return \BrianFaust\SocialShare\Facades\SocialShare::class;
+        return \SandeepGill\SocialShare\Facades\SocialShare::class;
     }
 
     protected function getFacadeRoot()
