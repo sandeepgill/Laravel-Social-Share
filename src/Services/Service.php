@@ -24,7 +24,7 @@ abstract class Service
         return static::getUrl().$query;
     }
 
-    abstract public static function getUrl();
+    abstract public function getUrl();
 
-    abstract public static function getFields($link, $text, $media);
+    abstract public function getFields($link, $text, $media);
 }
