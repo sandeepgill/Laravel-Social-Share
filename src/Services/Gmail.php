@@ -13,7 +13,7 @@
 
 namespace SandeepGill\SocialShare\Services;
 
-class Gmail extends Service
+class Gmail extends Service implements ServiceContract
 {
     public static function getUrl()
     {

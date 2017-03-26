@@ -13,7 +13,7 @@
 
 namespace SandeepGill\SocialShare\Services;
 
-class Evernote extends Service
+class Evernote extends Service implements ServiceContract
 {
     public static function getUrl()
     {

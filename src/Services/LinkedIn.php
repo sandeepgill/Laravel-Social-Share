@@ -13,7 +13,7 @@
 
 namespace SandeepGill\SocialShare\Services;
 
-class LinkedIn extends Service
+class LinkedIn extends Service implements ServiceContract
 {
     public static function getUrl()
     {

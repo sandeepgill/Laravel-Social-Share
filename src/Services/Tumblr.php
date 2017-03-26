@@ -13,7 +13,7 @@
 
 namespace SandeepGill\SocialShare\Services;
 
-class Tumblr extends Service
+class Tumblr extends Service implements ServiceContract
 {
     public static function getUrl()
     {

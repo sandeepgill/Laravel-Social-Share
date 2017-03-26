@@ -13,7 +13,7 @@
 
 namespace SandeepGill\SocialShare\Services;
 
-class Springpad extends Service
+class Springpad extends Service implements ServiceContract
 {
     public static function getUrl()
     {

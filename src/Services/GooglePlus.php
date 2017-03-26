@@ -13,7 +13,7 @@
 
 namespace SandeepGill\SocialShare\Services;
 
-class GooglePlus extends Service
+class GooglePlus extends Service implements ServiceContract
 {
     public static function getUrl()
     {

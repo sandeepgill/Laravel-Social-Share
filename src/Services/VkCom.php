@@ -13,7 +13,7 @@
 
 namespace SandeepGill\SocialShare\Services;
 
-class VkCom extends Service
+class VkCom extends Service implements ServiceContract
 {
     public static function getUrl()
     {

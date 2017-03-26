@@ -13,7 +13,7 @@
 
 namespace SandeepGill\SocialShare\Services;
 
-class Pinterest extends Service
+class Pinterest extends Service implements ServiceContract
 {
     public static function getUrl()
     {

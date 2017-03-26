@@ -13,7 +13,7 @@
 
 namespace SandeepGill\SocialShare\Services;
 
-class Digg extends Service
+class Digg extends Service implements ServiceContract
 {
     public static function getUrl()
     {

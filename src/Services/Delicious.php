@@ -13,7 +13,7 @@
 
 namespace SandeepGill\SocialShare\Services;
 
-class Delicious extends Service
+class Delicious extends Service implements ServiceContract
 {
     public static function getUrl()
     {

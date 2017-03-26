@@ -13,7 +13,7 @@
 
 namespace SandeepGill\SocialShare\Services;
 
-class Reddit extends Service
+class Reddit extends Service implements ServiceContract
 {
     public static function getUrl()
     {

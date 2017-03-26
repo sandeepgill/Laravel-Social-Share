@@ -13,7 +13,7 @@
 
 namespace SandeepGill\SocialShare\Services;
 
-class Viadeo extends Service
+class Viadeo extends Service implements ServiceContract
 {
     public static function getUrl()
     {

@@ -13,7 +13,7 @@
 
 namespace SandeepGill\SocialShare\Services;
 
-class Twitter extends Service
+class Twitter extends Service implements ServiceContract
 {
     public static function getUrl()
     {

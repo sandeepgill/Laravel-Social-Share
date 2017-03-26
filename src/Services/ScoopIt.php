@@ -13,7 +13,7 @@
 
 namespace SandeepGill\SocialShare\Services;
 
-class ScoopIt extends Service
+class ScoopIt extends Service implements ServiceContract
 {
     public static function getUrl()
     {

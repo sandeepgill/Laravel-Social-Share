@@ -13,7 +13,7 @@
 
 namespace SandeepGill\SocialShare\Services;
 
-class Facebook extends Service
+class Facebook extends Service implements ServiceContract
 {
     public static function getUrl()
     {
